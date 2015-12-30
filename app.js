@@ -21,6 +21,15 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
+
+/*_________APP.LOCALS_____________
+ App.locals is an object, and anytime you add an element to an object, it becomes attached to that object. Because app.locals is a variable that's available inside any of our templates, our data will be available there as well.  This means that I can add any variable or object to app.locals, and it becomes instantly accessible to any of my templates.__________________*/
+
+
+app.locals.appdata = require('./data.json');
+//or the previous line could look like this:
+//   var data = require('./data.json');
+//   app/locals.appdata = data
 app.use('/', routes);
 
 
