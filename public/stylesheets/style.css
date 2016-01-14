@@ -60,7 +60,7 @@ body {
   font-family: Merriweather, serif;
   font-size: 1.2rem;
   line-height: 160%;
-  background: #eae3cb;
+  background: #F7F3E6;
   color: #0a2933;
 }
 
@@ -143,13 +143,13 @@ footer {
   padding-bottom: 100px;
 }
 
-.speakers h3 {
+.projects h3 {
   padding-top: 10px;
-  padding-bottom: 5px;
+  padding-bottom: 10px;
   border-bottom: 1px dotted #819090;
   margin-bottom: 5px;
 }
-.speakers img {
+.projects img {
   width: 120px;
   float: left;
   -webkit-border-radius: 10px;
@@ -268,8 +268,8 @@ header .navigation ul.nav li:hover a {
     position: relative;
     display: block;
     width: 100%;
-    height: 450px;
-    background: -webkit-gradient(linear, 0% 100%, 100% 0%, color-stop(0%, rgba(4, 32, 41, 0.6)), color-stop(100%, rgba(4, 32, 41, 0))), url('../../images/misc/helper.jpg?1378515912');
+    height: 100px;
+    background: -webkit-gradient(linear, 0% 100%, 100% 0%, color-stop(0%, rgba(4, 32, 41, 0.6)), color-stop(100%, rgba(4, 32, 41, 0))), url('../../images/misc/header.jpg');
     background: -webkit-linear-gradient(bottom left, rgba(4, 32, 41, 0.6), rgba(4, 32, 41, 0)), url('../../images/misc/helper.jpg?1378515912');
     background: -moz-linear-gradient(bottom left, rgba(4, 32, 41, 0.6), rgba(4, 32, 41, 0)), url('../../images/misc/helper.jpg?1378515912');
     background: -o-linear-gradient(bottom left, rgba(4, 32, 41, 0.6), rgba(4, 32, 41, 0)), url('../../images/misc/helper.jpg?1378515912');
@@ -292,7 +292,7 @@ header .navigation ul.nav li:hover a {
     bottom: 0;
   }
 
-  .home .speakerslist {
+  .home .projectslist {
     text-align: center;
     background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #0d3340), color-stop(100%, #042029));
     background: -webkit-linear-gradient(top, #0d3340, #042029);
@@ -304,57 +304,57 @@ header .navigation ul.nav li:hover a {
     padding-bottom: 10px;
   }
 
-  .home .speakerslist h1, .home .speakerslist h2, .home .speakerslist h3, .home .speakerslist h4, .home .speakerslist h5, .home .speakerslist h6 {
+  .home .projectslist h1, .home .projectslist h2, .home .projectslist h3, .home .projectslist h4, .home .projectslist h5, .home .projectslist h6 {
     text-shadow: none;
     border-bottom: none !important;
   }
 
-  .home .speakerslist h1 {
+  .home .projectslist h1 {
     font-size: 2.6rem;
     line-height: 1em;
     color: #738a05;
   }
 
-  .home .speakerslist h3 {
+  .home .projectslist h3 {
     color: #d69a08;
     line-height: .9em;
   }
 
-  .home .speakerslist .small {
+  .home .projectslist .small {
     padding-top: .4em !important;
     line-height: 1em;
     color: #2390b3;
   }
 
-  .home .speakerslist .small a {
+  .home .projectslist .small a {
     color: #2390b3;
     text-decoration: none;
   }
 
-  .home .speakerslist .small a:hover {
+  .home .projectslist .small a:hover {
     text-decoration: underline;
   }
 
-  .home .speakerslist img.speaker {
+  .home .projectslist img.project {
     float: none;
     width: 40%;
     max-width: 170px;
     margin: 0 auto;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
-    border-radius: 50%;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    -ms-border-radius: 10%;
+    -o-border-radius: 10%;
+    border-radius: 10%;
   }
 
-  .home .speakerslist .small {
+  .home .projectslist .small {
     display: block;
   }
 
-  .home .speakerslist p:nth-of-type(2) {
+  .home .projectslist p:nth-of-type(2) {
     font-weight: 200 !important;
     text-align: left;
-    font-size: .8em;
+    font-size: .3em;
     line-height: 0;
     -webkit-transition: all 0.3s ease-out;
     -moz-transition: all 0.3s ease-out;
@@ -363,26 +363,26 @@ header .navigation ul.nav li:hover a {
     opacity: 0;
   }
 
-  .home .speakerslist:hover p:nth-of-type(2) {
+  .home .projectslist:hover p:nth-of-type(2) {
     line-height: 1.5em;
     opacity: 1;
   }
 
-  .home .speakerslist .artist {
-    width: 32.20339%;
+  .home .projectslist .artist {
+    width: 23%;
     float: left;
     margin-right: 1.69492%;
   }
 
-  .home .speakerslist .artist:nth-of-type(3) {
-    width: 32.20339%;
+  .home .projectslist .artist:nth-of-type(3) {
+    width: 23%;
     float: right;
     margin-right: 0;
   }
 }
 
 @media (max-width: 47em) {
-  .home .speakerslist {
+  .home .projectslist {
     display: none;
   }
 }

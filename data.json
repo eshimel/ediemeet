@@ -1,48 +1,55 @@
 {
-  "speakers": [{
-    "title" : "Art in Full Bloom",
-    "name": "Lorenzo Garcia",
-    "shortname" : "Lorenzo_Garcia",
-    "summary" : "Drawing and painting flowers may seem like a first-year art student's assignment, but Lorenzo Garcia brings depth, shadows, light, form and color to new heights with his unique and revolutionary technique of painting on canvas with ceramic glaze. This session is sure to be a hit with mixed media buffs.",
-    "description": "<p>Lorenzo was born in Mexico, but grew up in Southern California after his mother immigrated to Los Angeles when he was a year old. His mother worked as a seamstress in the Fashion District and brought home scrap materials for Lorenzo to create his early mixed media art. From that point on, Lorenzo became hooked on creating art from scrap metals, fabrics, wood, canvas, and many others. During his junior year at Bischon Art School in Los Angeles, he perfected his own proprietary method of painting on canvas with ceramic glaze, which he will demonstrate on Monday in his session, 'Art in Full Bloom'.</p><p>Lorenzo paints with an extraordinary amount of color, and prefers to create art centered around nature, animals, and science. Now in his senior year at Bischon, Lorenzo has been creating mixed media totem poles made from old telephone poles, and other recycled materials, and is already planning his next new technique that will likely inspire a trend for years to come.</p>",
-    "artwork": ["Lorenzo_Garcia_01_tn.jpg", "Lorenzo_Garcia_02_tn.jpg", "Lorenzo_Garcia_03_tn.jpg", "Lorenzo_Garcia_04_tn.jpg"]
+  "projects": [{
+    "title" : "MyJournal Web Application",
+    "name": "My Journal",
+    "shortname" : "my_Journal",
+    "summary" : "This app was inspired by a local youth art therapy organization’s daily check-in/check-out routine with the kids.  I spent the last year prior to becoming a developer working with this after school program, as well as others on the north shore, so it has been a lot of fun turning this activity into a working web app.",
+    "description": "<p> MyJournal is a way to keep a personal account of the what's happening in your life.  You can  pull up a list of all of your entries, delete previous entries, and rename an entry, if your writing goes in a different direction than when you first started your post.  Sorry, no going back in and editing a post.  Its like a paper journal, you'll just have to delete the whole thing.  A future feature will be the “rate my day” quick post, that gives users the option to give a quick 1-10 rating of how they feel their day is going.</p><p><a href=https://github.com/eshimel/myJournal</a></p><p>link to github hosted front-end</p><p><a href=https://immense-inlet-5495.herokuapp.com</a>link to heroku hosted back-end</p>",
+    "artwork": [ "my_Journal_02_tn.jpg", "My_Journal_03_tn.jpg"]
   },{
-    "title" : "Deep Sea Wonders",
-    "name": "Hilary Goldywynn Post",
-    "shortname" : "Hillary_Goldwynn",
-    "summary": "Hillary is a sophomore art sculpture student at New York University, and has won the major international prizes for painters, including the Divinity Circle and the International Painter's Medal. Hillary's exhibit features paintings that contain only water including waves, deep sea, and river.",
-    "description": "<p>Hillary is a sophomore art sculpture student at New York University, and has already won all the major international prizes for new painters, including the Divinity Circle, the International Painter's Medal, and the Academy of Paris Award. Hillary's CAC exhibit features paintings that contain only water images including waves, deep sea, and river.</p><p>An avid water sports participant, Hillary understands the water in many ways in which others do not, or may not ever have the opportunity. Her goal in creating the CAC exhibit was to share with others the beauty, power, and flow of natural bodies of water throughout the world. In addition to the display, Hilary also hosts a session on Tuesday called Deep Sea Wonders, which combines her love of deep sea diving and snorkeling, with instruction for capturing the beauty of underwater explorations on canvas.</p>",    
-    "artwork" : ["Hillary_Goldwynn_01_tn.jpg" , "Hillary_Goldwynn_02_tn.jpg" , "Hillary_Goldwynn_03_tn.jpg" , "Hillary_Goldwynn_04_tn.jpg" , "Hillary_Goldwynn_05_tn.jpg" , "Hillary_Goldwynn_06_tn.jpg" , "Hillary_Goldwynn_07_tn.jpg"]
+    "title" : "PackRat File Bucket Web Application",
+    "name": "PackRat",
+    "shortname" : "Pack_Rat",
+    "summary": "This is a file bucket application, using a Node/Express API, Mongodb and Amazon AWS S3. PackRat is a group project with two other contributors and is my next frontier for improving the user interface!",
+    "description": "<p>Team Turing:Jeff, Kayla and Edie<br><h2>The Group Project</h2><p>Build a Dropbox-like app that allows users to upload files into a virtual file system. In addition to keeping track of file structure, this app should associate meta-data with each file, including things like: date created/uploaded date modified owner (person who uploaded the file) tags </p><p>Given the flexible storage options of Mongodb, the behavior of these furry little critters, seems to reflect the flexibility of document attributes. Packrats, also called woodrats, build complex houses or dens made of twigs, cactus joints, and other materials. These contain several nest chambers, food caches, and debris piles. These debris piles are called Middens, and have been know to preserve materials gathered by the packrats for 50,000 years.</p><p><a href=http://midden.github.io/packRat-frontend</a><h1> Click Here to Visit PackRat</h1></p><p><a href=https://github.com/Midden/packRat-backend2</a>click here to visit the back-end repo</p>",
+    "artwork" : ["Pack_Rat_03_tn.jpg","Pack_Rat_02_tn.jpg"    ]
   },{
-    "title" : "The Art of Abstract",
-    "name": "Riley Rudolph Rewington",
-    "shortname" : "Riley_Rewington",
-    "summary": "The leader of the MMA artistic movement in his hometown of Portland, Riley Rudolph Rewington draws a crowd wherever he goes. Mixing street performance, video, music, and traditional art, Riley has created some of the most unique and deeply poignant abstract works of his generation.",
-    "description": "<p>Riley started out as musician and street performance artist, and now blends painting and photography with audio, video, and computer multimedia to create what he calls 'Music and Multimedia Artworks.' Riley's innovations in using multimedia to express art have created a youth culture movement in his town of Portland, in which he remains at the forefront. In his role as the founder of the MMA art form, Riley has become an inspiration to many up and coming artists. However, the part Riley insists is most important to him, is that he's helped many troubled youth take control of their lives, and create their own unique, positive futures. Seeing kids he's mentored graduate from high school and enroll in college, gives art the purpose that Riley so craves.</p><p>A first-year student at the Roux Academy of Art, Media, and Design, Riley is already changing the face of modern art at the university. Riley's exquisite abstract pieces have no intention of ever being understood, but instead beg the viewer to dream, create, pretend, and envision with their mind's eye. Riley will be speaking on the 'Art of Abstract' during Thursday's schedule.</p>",
-    "artwork" : ["Riley_Rewington_01_tn.jpg","Riley_Rewington_02_tn.jpg","Riley_Rewington_03_tn.jpg","Riley_Rewington_04_tn.jpg","Riley_Rewington_05_tn.jpg","Riley_Rewington_06_tn.jpg"]
+    "title" : "Ediemeet Portfolio site",
+    "name": "EdieMeet",
+    "shortname" : "edie_meet",
+    "summary": "You might have guessed that you are viewing this website right now!",
+    "description": "<p><h2>EdieMeet</h2><p>This website is built using Node.js, Express and EJS templating. As I continue to grow as a web developer, I plan to integrate that learning into both my personal and professional work.</p>",
+    "artwork" : ["edie_meet_tn_01.jpg"]
+  },{
+    "title" : "PEMLife Creative Projects",
+    "name": "PEM Life",
+    "shortname" : "PEM_Life",
+    "summary": "From 2013-2015 I was the Youth Programs Coordinator at the Peabody Essex Museum (PEM).  This section highlights some of the projects and creative opportunities that experience provided me.",
+    "description": "<p>Accomplishments</p><p>Developed Creative Technology based curriculum including 3D modeling and printing, reverse engineering, circuits and data-mining.</p><p>Ran a 24-Hour Strandbeest Hackathon in collaboration with the artist and interpretation team.</p><p>Successful launch and operation of the Maker Lounge.</p><p>Created an Elements of Art and Principles of Design Curriculum for the PEM Guide Program.</p><p>Collaborated with Makers in Residence to develop audience experiences focussing on themes such as Wearables Technology and Robotics.</p>.<p>PEM Projects and Collaborations </p><p><a href=http://connected.pem.org/pemcast-002-makers/</a>Interview for PEMCast podcast discussing maker culture </p><a href=http://beesthackathon.wordpress.com/</a>Strandbeest Hackathon </p><p><a href=http://www.c4csd.org/peabody-essex-museum/</a>Center for Children's Speculative Design, Maker in Residence project</p>"
+    ,"artwork" : ["PEM_Life_01_tn.jpg","PEM_Life_02_tn.jpg","PEM_Life_03_tn.jpg","PEM_Life_04_tn.jpg","PEM_Life_06_tn.jpg", "PEM_Life_07_tn.jpg", "PEM_Life_09_tn.jpg"]
   }],
 
   "social" : [{
     "shortname" : "twitter",
     "img" : "/images/socialmedia/twitter.png",
-    "url" : "http://www.twitter.com/rouxmeet"
+    "url" : "http://www.twitter.com/edieshimel"
   },{
-    "shortname" : "facebook",
-    "img" : "/images/socialmedia/facebook.png",
-    "url" : "http://www.facebook.com/rouxmeet"
+    "shortname" : "linkin",
+    "img" : "/images/socialmedia/linkedin.png",
+    "url" : "https://www.linkedin.com/in/edieshimel"
   },{
-    "shortname" : "meetup",
-    "img" : "/images/socialmedia/meetup.png",
-    "url" : "http://www.meetup.com/rouxmeet/"
-  }],
+    "shortname" : "github",
+    "img" : "/images/socialmedia/github.png",
+    "url" : "https://github.com/eshimel"
+    }],
 
   "meeting" : {
-    "date": "Thursday, March 27th",
-    "time": "6-9pm",
+    "date": "Thursday, Jan 14th",
+    "time": "6:30-9pm",
     "where": {
-      "name": "Hotel Gwendoline",
-      "img": "/images/misc/hotel_gwendoline.jpg",
-      "address": "123 Elm Street"
+      "name": "GA Boston",
+      "img": "/images/misc/EDIE_SHIMEL_02.jpg",
+      "address": "WeWork South Station"
     }
   }
 }

@@ -1,16 +1,13 @@
 <!DOCTYPE html>
 <html>
   <head><% include partials/template/head.ejs %></head>
-  <body class="<%= page %>">
+  <body>
   <% include partials/template/header.ejs %>
-  <% include partials/content/projectslist.ejs %>
+
 
     <section class="layout">
       <div class="primary">
-       <% include partials/content/whoAmI.ejs %>
-       <% include partials/content/whatIlearned.ejs %>
-       <% include partials/content/followMe.ejs %>
-
+        <% include partials/content/projectslist.ejs %>
       </div><!--primary -->
       <aside class="secondary">
         <% include partials/content/nextmeeting.ejs %>

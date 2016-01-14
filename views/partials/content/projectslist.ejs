@@ -1,0 +1,23 @@
+<article class="projectslist">
+  <section class="layout">
+    <div class="projects">
+      <% artists.forEach(function(item) { %>
+        <article class="artist group">
+          <h3><%= item.title %> <span class="small">with
+            <a href="/projects/<%= item.shortname %>">
+            <%= item.name %></a><span></h3>
+            <p><a href="/projects/<%= item.shortname %>">
+              <img class="project" src="/images/projects/<%= item.shortname %>_tn.jpg" alt="Photo of <%= item.name %>"></a>
+              <% if (page!= 'home') { %>
+                <% if (page === 'artistList') { %>
+                  <%- item.summary %> <!--data.json -->
+                <% } else { %>
+                  <%- item.description %>
+                <% } %>
+              <% } %>
+            </a></p>
+        </article>
+      <% }); %>
+    </div>
+  </section>
+</article>
