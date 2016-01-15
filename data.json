@@ -4,14 +4,14 @@
     "name": "My Journal",
     "shortname" : "my_Journal",
     "summary" : "This app was inspired by a local youth art therapy organization’s daily check-in/check-out routine with the kids.  I spent the last year prior to becoming a developer working with this after school program, as well as others on the north shore, so it has been a lot of fun turning this activity into a working web app.",
-    "description": "<p> MyJournal is a way to keep a personal account of the what's happening in your life.  You can  pull up a list of all of your entries, delete previous entries, and rename an entry, if your writing goes in a different direction than when you first started your post.  Sorry, no going back in and editing a post.  Its like a paper journal, you'll just have to delete the whole thing.  A future feature will be the “rate my day” quick post, that gives users the option to give a quick 1-10 rating of how they feel their day is going.</p><p><a href=https://github.com/eshimel/myJournal</a></p><p>link to github hosted front-end</p><p><a href=https://immense-inlet-5495.herokuapp.com</a>link to heroku hosted back-end</p>",
+    "description": "<p> MyJournal is a way to keep a personal account of the what's happening in your life.  You can  pull up a list of all of your entries, delete previous entries, and rename an entry, if your writing goes in a different direction than when you first started your post.  Sorry, no going back in and editing a post.  Its like a paper journal, you'll just have to delete the whole thing.  A future feature will be the “rate my day” quick post, that gives users the option to give a quick 1-10 rating of how they feel their day is going.</p><p><a href= http://eshimel.github.io/myJournal_frontend-aSQL </a>link to web applicaion</p><p><a https://github.com/eshimel/myJournal </a>link to github back-end</p>",
     "artwork": [ "my_Journal_02_tn.jpg", "My_Journal_03_tn.jpg"]
   },{
     "title" : "PackRat File Bucket Web Application",
     "name": "PackRat",
     "shortname" : "Pack_Rat",
     "summary": "This is a file bucket application, using a Node/Express API, Mongodb and Amazon AWS S3. PackRat is a group project with two other contributors and is my next frontier for improving the user interface!",
-    "description": "<p>Team Turing:Jeff, Kayla and Edie<br><h2>The Group Project</h2><p>Build a Dropbox-like app that allows users to upload files into a virtual file system. In addition to keeping track of file structure, this app should associate meta-data with each file, including things like: date created/uploaded date modified owner (person who uploaded the file) tags </p><p>Given the flexible storage options of Mongodb, the behavior of these furry little critters, seems to reflect the flexibility of document attributes. Packrats, also called woodrats, build complex houses or dens made of twigs, cactus joints, and other materials. These contain several nest chambers, food caches, and debris piles. These debris piles are called Middens, and have been know to preserve materials gathered by the packrats for 50,000 years.</p><p><a href=http://midden.github.io/packRat-frontend</a><h1> Click Here to Visit PackRat</h1></p><p><a href=https://github.com/Midden/packRat-backend2</a>click here to visit the back-end repo</p>",
+    "description": "<p>Team Turing:Jeff, Kayla and Edie<br><h2>The Group Project</h2><p>Build a Dropbox-like app that allows users to upload files into a virtual file system. In addition to keeping track of file structure, this app should associate meta-data with each file, including things like: date created/uploaded date modified owner (person who uploaded the file) tags </p><p>Given the flexible storage options of Mongodb, the behavior of these furry little critters, seems to reflect the flexibility of document attributes. Packrats, also called woodrats, build complex houses or dens made of twigs, cactus joints, and other materials. These contain several nest chambers, food caches, and debris piles. These debris piles are called Middens, and have been know to preserve materials gathered by the packrats for 50,000 years.</p><p><a href=http://midden.github.io/packRat-frontend </a><h1> Click Here to Visit PackRat</h1></p><p><a href=https://github.com/Midden/packRat-backend2 </a>click here to visit the back-end repo</p>",
     "artwork" : ["Pack_Rat_03_tn.jpg","Pack_Rat_02_tn.jpg"    ]
   },{
     "title" : "Ediemeet Portfolio site",
@@ -44,12 +44,12 @@
     }],
 
   "meeting" : {
-    "date": "Thursday, Jan 14th",
-    "time": "6:30-9pm",
+    "date": "starting Jan 16th",
+    "time": "10:00am",
     "where": {
-      "name": "GA Boston",
+      "name": "Teaching Digital Photography",
       "img": "/images/misc/EDIE_SHIMEL_02.jpg",
-      "address": "WeWork South Station"
+      "address": "Institute of Contemporary Art, Boston"
     }
   }
 }
