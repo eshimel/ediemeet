@@ -268,8 +268,8 @@ header .navigation ul.nav li:hover a {
     position: relative;
     display: block;
     width: 100%;
-    height: 100px;
-    background: -webkit-gradient(linear, 0% 100%, 100% 0%, color-stop(0%, rgba(4, 32, 41, 0.6)), color-stop(100%, rgba(4, 32, 41, 0))), url('../../images/misc/header.jpg');
+    height: 80px;
+    background: -webkit-gradient(linear, 0% 100%, 100% 0%, color-stop(0%, rgba(4, 32, 41, 0.6)), color-stop(100%, rgba(4, 32, 41, 0))), url('../../images/misc/helper.jpg');
     background: -webkit-linear-gradient(bottom left, rgba(4, 32, 41, 0.6), rgba(4, 32, 41, 0)), url('../../images/misc/helper.jpg?1378515912');
     background: -moz-linear-gradient(bottom left, rgba(4, 32, 41, 0.6), rgba(4, 32, 41, 0)), url('../../images/misc/helper.jpg?1378515912');
     background: -o-linear-gradient(bottom left, rgba(4, 32, 41, 0.6), rgba(4, 32, 41, 0)), url('../../images/misc/helper.jpg?1378515912');
@@ -294,7 +294,7 @@ header .navigation ul.nav li:hover a {
 
   .home .projectslist {
     text-align: center;
-    background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #0d3340), color-stop(100%, #042029));
+    background: -webkit-gradient(linear, 0% 100%, 0% 100%, color-stop(0%, #0d3340), color-stop(90%, #042029));
     background: -webkit-linear-gradient(top, #0d3340, #042029);
     background: -moz-linear-gradient(top, #0d3340, #042029);
     background: -o-linear-gradient(top, #0d3340, #042029);
